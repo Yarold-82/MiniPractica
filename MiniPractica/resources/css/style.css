@@ -89,13 +89,17 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     width: 40%;
-    
 }
 .cont_form form input{
     margin: 10px 0px 10px 0px;
     padding: 10px;
     border: none;
     border-radius: 5px;
+    transition: 0.3s;
+}
+.cont_form form input:hover{
+    box-shadow: 0px 0px 10px #47a9ff;
+    transition: 0.3s;
 }
 .cont_form form button{
     margin: 10px 0px 10px 0px;
